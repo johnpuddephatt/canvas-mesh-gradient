@@ -1,11 +1,12 @@
 {
-  "name": "@thelevicole/stripe-gradient",
+  "name": "@johnpuddephatt/canvas-mesh-gradient",
   "version": "1.0.0",
-  "description": "A reverse engineered, and simplified javascript library to replicate the animated Stripe gradients.",
-  "main": "dist/stripe-gradient.js",
+  "description": "Animated gradients on canvas.",
+  "main": "src/Gradient.js",
+  "type": "module",
   "keywords": [
-    "stripe",
     "gradient",
+    "mesh",
     "canvas",
     "animation"
   ],
@@ -16,21 +17,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thelevicole/stripe-gradient.git"
+    "url": "git+https://github.com/johnpuddephatt/canvas-mesh-gradient.git"
   },
   "author": {
     "name": "Levi Cole",
     "email": "dev@thelevicole.com"
   },
   "bugs": {
-    "url": "https://github.com/thelevicole/stripe-gradient/issues"
+    "url": "https://github.com/johnpuddephatt/canvas-mesh-gradient/issues"
   },
-  "homepage": "https://thelevicole.com/stripe-gradient/",
-  "devDependencies": {
-    "laravel-mix": "^6.0.43"
-  },
-  "scripts": {
-    "build": "mix --production",
-    "watch": "mix --production -- --watch --progress"
-  }
+  "homepage": "https://github.com/johnpuddephatt/canvas-mesh-gradient",
+  
 }
